@@ -1,0 +1,197 @@
+Factory,State/Province,Product_Records,Unique_Orders
+Lot's O' Nuts,California,1125,944
+Wicked Choccy's,California,823,689
+Lot's O' Nuts,New York,645,544
+Lot's O' Nuts,Texas,569,479
+Wicked Choccy's,New York,436,353
+Wicked Choccy's,Texas,388,326
+Lot's O' Nuts,Pennsylvania,331,270
+Lot's O' Nuts,Illinois,267,235
+Lot's O' Nuts,Washington,269,230
+Lot's O' Nuts,Ohio,262,218
+Wicked Choccy's,Pennsylvania,227,188
+Wicked Choccy's,Washington,221,187
+Wicked Choccy's,Illinois,210,183
+Lot's O' Nuts,Florida,209,176
+Wicked Choccy's,Ohio,189,157
+Wicked Choccy's,Florida,161,131
+Lot's O' Nuts,North Carolina,143,120
+Lot's O' Nuts,Michigan,147,118
+Lot's O' Nuts,Arizona,111,94
+Lot's O' Nuts,Virginia,109,91
+Wicked Choccy's,North Carolina,101,91
+Lot's O' Nuts,Georgia,110,88
+Wicked Choccy's,Arizona,105,88
+Lot's O' Nuts,Tennessee,109,88
+Wicked Choccy's,Virginia,106,85
+Wicked Choccy's,Michigan,100,83
+Lot's O' Nuts,Colorado,103,82
+Lot's O' Nuts,Indiana,90,74
+Lot's O' Nuts,Kentucky,77,63
+Lot's O' Nuts,Oregon,77,62
+Lot's O' Nuts,Massachusetts,76,58
+Wicked Choccy's,Tennessee,67,56
+Wicked Choccy's,Georgia,65,55
+Lot's O' Nuts,New Jersey,65,53
+Wicked Choccy's,Colorado,70,49
+Wicked Choccy's,New Jersey,59,49
+Wicked Choccy's,Kentucky,58,45
+Lot's O' Nuts,Wisconsin,58,44
+Wicked Choccy's,Indiana,54,44
+Lot's O' Nuts,Maryland,60,44
+Wicked Choccy's,Massachusetts,54,43
+Wicked Choccy's,Wisconsin,47,42
+Lot's O' Nuts,Connecticut,47,40
+Lot's O' Nuts,Delaware,43,39
+Wicked Choccy's,Oregon,43,39
+Lot's O' Nuts,Minnesota,43,38
+Wicked Choccy's,Delaware,49,37
+Wicked Choccy's,Minnesota,45,36
+Lot's O' Nuts,Oklahoma,41,34
+Wicked Choccy's,Maryland,41,32
+Secret Factory,California,31,31
+Wicked Choccy's,Connecticut,31,30
+Lot's O' Nuts,Missouri,36,30
+Lot's O' Nuts,Alabama,34,30
+Lot's O' Nuts,Mississippi,30,25
+Lot's O' Nuts,Arkansas,31,25
+Wicked Choccy's,Missouri,29,25
+Lot's O' Nuts,Ontario,28,24
+Lot's O' Nuts,Rhode Island,30,23
+Secret Factory,New York,24,23
+Lot's O' Nuts,Nevada,24,23
+Wicked Choccy's,Oklahoma,25,22
+Wicked Choccy's,Utah,23,22
+The Other Factory,California,21,21
+Lot's O' Nuts,Utah,29,21
+Wicked Choccy's,Arkansas,27,21
+Lot's O' Nuts,Louisiana,24,21
+Lot's O' Nuts,Quebec,24,20
+Lot's O' Nuts,Nebraska,23,20
+Secret Factory,Pennsylvania,19,19
+Wicked Choccy's,Rhode Island,21,18
+Wicked Choccy's,Alabama,22,18
+Lot's O' Nuts,New Mexico,18,18
+Lot's O' Nuts,British Columbia,18,18
+Lot's O' Nuts,South Carolina,21,18
+Wicked Choccy's,Mississippi,22,17
+Wicked Choccy's,Ontario,30,17
+Wicked Choccy's,Quebec,24,16
+Secret Factory,Texas,16,16
+Lot's O' Nuts,Kansas,15,15
+Wicked Choccy's,Louisiana,15,14
+Lot's O' Nuts,Iowa,16,14
+Wicked Choccy's,New Mexico,17,14
+Wicked Choccy's,South Carolina,19,14
+Secret Factory,Illinois,13,13
+The Other Factory,New York,14,13
+Lot's O' Nuts,New Hampshire,13,13
+Wicked Choccy's,Nebraska,14,12
+Secret Factory,Ohio,13,12
+Lot's O' Nuts,Idaho,14,12
+Lot's O' Nuts,Alberta,16,12
+Wicked Choccy's,Iowa,14,12
+Secret Factory,Washington,11,11
+Wicked Choccy's,Nevada,12,10
+Wicked Choccy's,New Hampshire,11,10
+The Other Factory,Texas,9,9
+Sugar Shack,New York,9,9
+Wicked Choccy's,Alberta,8,8
+Wicked Choccy's,Kansas,9,8
+Secret Factory,Colorado,7,7
+The Other Factory,Pennsylvania,7,7
+Lot's O' Nuts,Montana,8,7
+Lot's O' Nuts,District of Columbia,8,6
+Lot's O' Nuts,Prince Edward Island,6,6
+Lot's O' Nuts,South Dakota,9,6
+Wicked Choccy's,Nova Scotia,6,6
+Wicked Choccy's,Manitoba,10,6
+Wicked Choccy's,Idaho,7,6
+Secret Factory,Georgia,7,6
+Secret Factory,Florida,7,6
+Secret Factory,Michigan,5,5
+Secret Factory,Virginia,5,5
+Lot's O' Nuts,Maine,6,5
+Lot's O' Nuts,Newfoundland and Labrador,6,5
+Secret Factory,Wisconsin,5,5
+Secret Factory,Arizona,5,5
+Wicked Choccy's,Vermont,5,5
+Wicked Choccy's,Montana,7,5
+Lot's O' Nuts,New Brunswick,4,4
+Wicked Choccy's,British Columbia,4,4
+The Other Factory,Virginia,4,4
+Wicked Choccy's,New Brunswick,4,4
+Secret Factory,Indiana,4,4
+Secret Factory,North Carolina,4,4
+Lot's O' Nuts,North Dakota,5,4
+Lot's O' Nuts,Vermont,5,4
+Secret Factory,Maryland,3,3
+Secret Factory,Tennessee,3,3
+Secret Factory,Rhode Island,3,3
+The Other Factory,Tennessee,3,3
+The Other Factory,Washington,4,3
+Secret Factory,Alabama,3,3
+The Other Factory,Massachusetts,3,3
+The Other Factory,New Jersey,3,3
+The Other Factory,Ohio,3,3
+Sugar Shack,Pennsylvania,3,3
+Sugar Shack,Texas,3,3
+Sugar Shack,Michigan,3,3
+The Other Factory,Florida,3,3
+Sugar Shack,Florida,3,3
+Wicked Choccy's,Prince Edward Island,4,2
+Wicked Choccy's,Saskatchewan,2,2
+Wicked Choccy's,Maine,2,2
+Secret Factory,Arkansas,2,2
+Secret Factory,Alberta,2,2
+Lot's O' Nuts,West Virginia,2,2
+Lot's O' Nuts,Manitoba,2,2
+Secret Factory,Oregon,2,2
+Secret Factory,Kentucky,2,2
+Secret Factory,Louisiana,2,2
+Secret Factory,New Jersey,2,2
+Secret Factory,Nevada,2,2
+Secret Factory,Quebec,2,2
+Secret Factory,New Mexico,2,2
+Secret Factory,Massachusetts,2,2
+The Other Factory,Colorado,2,2
+Sugar Shack,Illinois,2,2
+Sugar Shack,Ohio,2,2
+The Other Factory,Kentucky,2,2
+The Other Factory,Alabama,2,2
+The Other Factory,Delaware,2,2
+The Other Factory,Georgia,2,2
+The Other Factory,New Hampshire,2,2
+The Other Factory,Oregon,2,2
+Wicked Choccy's,West Virginia,2,2
+The Other Factory,Arizona,2,2
+The Other Factory,Connecticut,2,2
+Wicked Choccy's,South Dakota,3,2
+Wicked Choccy's,District of Columbia,2,2
+Secret Factory,Delaware,1,1
+Lot's O' Nuts,Wyoming,1,1
+Secret Factory,Connecticut,1,1
+The Other Factory,North Carolina,1,1
+The Other Factory,Missouri,1,1
+The Other Factory,Nevada,1,1
+The Other Factory,Maryland,1,1
+The Other Factory,Louisiana,1,1
+Sugar Shack,California,1,1
+Sugar Shack,Connecticut,1,1
+Sugar Shack,Delaware,1,1
+Secret Factory,Nebraska,1,1
+Secret Factory,South Carolina,1,1
+Secret Factory,Minnesota,1,1
+Secret Factory,Mississippi,1,1
+Secret Factory,New Hampshire,1,1
+The Other Factory,Indiana,1,1
+Sugar Shack,Washington,1,1
+Sugar Shack,Tennessee,1,1
+Sugar Shack,Rhode Island,1,1
+Sugar Shack,New Jersey,1,1
+Secret Factory,Utah,1,1
+Secret Factory,Vermont,1,1
+Sugar Shack,Arizona,1,1
+The Other Factory,South Carolina,1,1
+The Other Factory,Rhode Island,1,1
+Wicked Choccy's,North Dakota,2,1

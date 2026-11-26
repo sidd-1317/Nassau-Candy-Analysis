@@ -1,0 +1,18 @@
+Total records: 10194
+
+Records with a mapped factory: 10194
+
+Records without a mapped factory: 0
+
+Products without a mapped factory:
+[]
+
+Shipment count by factory:
+Factory
+Lot's O' Nuts        5692
+Wicked Choccy's      4152
+Secret Factory        217
+The Other Factory     100
+Sugar Shack            33
+Name: count, dtype: int64
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py

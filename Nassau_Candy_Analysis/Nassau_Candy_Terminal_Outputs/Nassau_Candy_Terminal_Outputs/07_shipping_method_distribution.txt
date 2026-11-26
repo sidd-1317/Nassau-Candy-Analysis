@@ -1,0 +1,7 @@
+SHIPPING METHOD DISTRIBUTION
+Ship Mode
+Standard Class    6120
+Second Class      1979
+First Class       1548
+Same Day           547
+Name: count, dtype: int64

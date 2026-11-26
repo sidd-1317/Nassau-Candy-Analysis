@@ -1,0 +1,21 @@
+RECORDS BY FACTORY
+Factory
+Lot's O' Nuts        5692
+Wicked Choccy's      4152
+Secret Factory        217
+The Other Factory     100
+Sugar Shack            33
+Name: count, dtype: int64
+
+TOP 10 FACTORY-TO-STATE ROUTES
+        Factory State/Province  Shipment_Records  Unique_Orders
+  Lot's O' Nuts     California              1125            944
+Wicked Choccy's     California               823            689
+  Lot's O' Nuts       New York               645            544
+  Lot's O' Nuts          Texas               569            479
+Wicked Choccy's       New York               436            353
+Wicked Choccy's          Texas               388            326
+  Lot's O' Nuts   Pennsylvania               331            270
+  Lot's O' Nuts       Illinois               267            235
+  Lot's O' Nuts     Washington               269            230
+  Lot's O' Nuts           Ohio               262            218

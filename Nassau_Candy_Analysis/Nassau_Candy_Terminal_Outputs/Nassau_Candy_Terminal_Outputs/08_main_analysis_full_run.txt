@@ -1,0 +1,92 @@
+NASSAU CANDY SHIPPING ROUTE ANALYSIS
+=======================================================
+
+Dataset loaded successfully!
+Total records: 10194
+Total columns: 18
+
+DATASET SHAPE
+(10194, 18)
+
+COLUMN NAMES
+['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode', 'Customer ID', 'Country/Region', 'City', 'State/Province', 'Postal Code', 'Division', 'Region', 'Product ID', 'Product Name', 'Sales', 'Units', 'Gross Profit', 'Cost']
+
+MISSING VALUES
+Row ID            0
+Order ID          0
+Order Date        0
+Ship Date         0
+Ship Mode         0
+Customer ID       0
+Country/Region    0
+City              0
+State/Province    0
+Postal Code       0
+Division          0
+Region            0
+Product ID        0
+Product Name      0
+Sales             0
+Units             0
+Gross Profit      0
+Cost              0
+dtype: int64
+
+DATE QUALITY CHECK
+Order date range: 2024-01-02 00:00:00 to 2025-12-31 00:00:00
+Ship date range: 2026-06-30 00:00:00 to 2030-06-28 00:00:00
+
+Lead time summary (provisional)
+count    10194.000000
+mean      1320.841868
+std        262.444892
+min        904.000000
+25%       1271.000000
+50%       1274.000000
+75%       1638.000000
+max       1642.000000
+Name: Lead Time, dtype: float64
+
+FACTORY MAPPING CHECK
+Mapped records: 10194
+Unmapped records: 0
+
+RECORDS BY FACTORY
+          Factory  Product_Records  Unique_Orders  Unique_Products
+    Lot's O' Nuts             5692           4760                3
+  Wicked Choccy's             4152           3445                2
+   Secret Factory              217            213                3
+The Other Factory              100             98                2
+      Sugar Shack               33             33                5
+
+TOP 10 FACTORY-TO-STATE ROUTES
+        Factory State/Province  Product_Records  Unique_Orders
+  Lot's O' Nuts     California             1125            944
+Wicked Choccy's     California              823            689
+  Lot's O' Nuts       New York              645            544
+  Lot's O' Nuts          Texas              569            479
+Wicked Choccy's       New York              436            353
+Wicked Choccy's          Texas              388            326
+  Lot's O' Nuts   Pennsylvania              331            270
+  Lot's O' Nuts       Illinois              267            235
+  Lot's O' Nuts     Washington              269            230
+  Lot's O' Nuts           Ohio              262            218
+
+SHIPPING METHOD DISTRIBUTION
+     Ship Mode  Product_Records  Unique_Orders
+Standard Class             6120           5142
+  Second Class             1979           1653
+   First Class             1548           1312
+      Same Day              547            442
+
+=======================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+=======================================================
+
+Files saved in the outputs folder:
+- dataset_with_factory.csv
+- factory_state_routes.csv
+- factory_summary.csv
+- shipping_mode_distribution.png
+- shipping_mode_summary.csv
+- top_10_routes.png

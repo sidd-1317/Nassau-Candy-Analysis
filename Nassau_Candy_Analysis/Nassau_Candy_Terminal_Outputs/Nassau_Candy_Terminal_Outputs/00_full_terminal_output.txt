@@ -1,0 +1,268 @@
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
+Dataset shape: (10194, 18)
+
+Column names:
+['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode', 'Customer ID', 'Country/Region', 'City', 'State/Province', 'Postal Code', 'Division', 'Region', 'Product ID', 'Product Name', 'Sales', 'Units', 'Gross Profit', 'Cost']
+
+Order date range:
+2024-01-02 00:00:00 to 2025-12-31 00:00:00
+
+Ship date range:
+2026-06-30 00:00:00 to 2030-06-28 00:00:00
+
+Shipping lead time summary:
+count    10194.000000
+mean      1320.841868
+std        262.444892
+min        904.000000
+25%       1271.000000
+50%       1274.000000
+75%       1638.000000
+max       1642.000000
+Name: Shipping Lead Time, dtype: float64
+
+Invalid order dates: 0
+Invalid ship dates: 0
+Negative lead times: 0
+Duplicate rows: 0
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
+
+LEAD TIME BY SHIPPING METHOD
+                count  min  median     mean   max
+Ship Mode                                        
+First Class      1548  905  1272.0  1338.28  1638
+Same Day          547  904  1269.0  1333.44  1636
+Second Class     1979  906  1273.0  1323.85  1640
+Standard Class   6120  908  1274.0  1314.33  1642
+
+SAMPLE DATE RECORDS
+                    Order ID Order Date  Ship Date      Ship Mode  Lead Time
+US-2021-103800-CHO-MIL-31000 2024-01-03 2026-06-30 Standard Class        909
+US-2021-112326-CHO-TRI-54000 2024-01-04 2026-07-01 Standard Class        909
+US-2021-112326-CHO-NUT-13000 2024-01-04 2026-07-01 Standard Class        909
+US-2021-112326-CHO-SCR-58000 2024-01-04 2026-07-01 Standard Class        909
+US-2021-141817-CHO-TRI-54000 2024-01-05 2026-07-05 Standard Class        912
+US-2021-167199-CHO-SCR-58000 2024-01-06 2026-07-03 Standard Class        909
+US-2021-167199-CHO-TRI-54000 2024-01-06 2026-07-03 Standard Class        909
+US-2021-106054-CHO-MIL-31000 2024-01-06 2026-06-30    First Class        906
+US-2021-167199-CHO-NUT-13000 2024-01-06 2026-07-03 Standard Class        909
+US-2021-167199-CHO-MIL-31000 2024-01-06 2026-07-03 Standard Class        909
+
+MOST COMMON LEAD TIMES
+Lead Time
+1273    1326
+1274    1035
+1639     896
+1640     657
+1275     612
+1271     610
+908      591
+909      519
+1272     456
+1637     449
+Name: count, dtype: int64
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
+ORDER ID YEAR COUNTS
+ID Year
+2021.0    1993
+2022.0    2102
+2023.0    2587
+2024.0    3312
+Name: count, dtype: int64
+
+ORDER DATE YEAR COUNTS
+Order Year
+2024    4181
+2025    6013
+Name: count, dtype: int64
+
+SHIP DATE YEAR COUNTS
+Ship Year
+2026     711
+2027    2089
+2028    2367
+2029    2899
+2030    2128
+Name: count, dtype: int64
+
+SAMPLE DATE COMPARISON
+                    Order ID  ID Year Order Date  Ship Date
+US-2021-103800-CHO-MIL-31000   2021.0 2024-01-03 2026-06-30
+US-2021-112326-CHO-TRI-54000   2021.0 2024-01-04 2026-07-01
+US-2021-112326-CHO-NUT-13000   2021.0 2024-01-04 2026-07-01
+US-2021-112326-CHO-SCR-58000   2021.0 2024-01-04 2026-07-01
+US-2021-141817-CHO-TRI-54000   2021.0 2024-01-05 2026-07-05
+US-2021-167199-CHO-SCR-58000   2021.0 2024-01-06 2026-07-03
+US-2021-167199-CHO-TRI-54000   2021.0 2024-01-06 2026-07-03
+US-2021-106054-CHO-MIL-31000   2021.0 2024-01-06 2026-06-30
+US-2021-167199-CHO-NUT-13000   2021.0 2024-01-06 2026-07-03
+US-2021-167199-CHO-MIL-31000   2021.0 2024-01-06 2026-07-03
+US-2021-167199-CHO-MIL-31000   2021.0 2024-01-06 2026-07-03
+US-2021-130813-CHO-MIL-31000   2021.0 2024-01-06 2026-07-01
+US-2021-167199-CHO-SCR-58000   2021.0 2024-01-06 2026-07-03
+US-2021-167199-CHO-FUD-51000   2021.0 2024-01-06 2026-07-03
+US-2021-105417-CHO-MIL-31000   2021.0 2024-01-07 2026-07-05
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
+Total records: 10194
+
+Records with a mapped factory: 10194
+
+Records without a mapped factory: 0
+
+Products without a mapped factory:
+[]
+
+Shipment count by factory:
+Factory
+Lot's O' Nuts        5692
+Wicked Choccy's      4152
+Secret Factory        217
+The Other Factory     100
+Sugar Shack            33
+Name: count, dtype: int64
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
+
+RECORDS BY FACTORY
+Factory
+Lot's O' Nuts        5692
+Wicked Choccy's      4152
+Secret Factory        217
+The Other Factory     100
+Sugar Shack            33
+Name: count, dtype: int64
+
+TOP 10 FACTORY-TO-STATE ROUTES
+        Factory State/Province  Shipment_Records  Unique_Orders
+  Lot's O' Nuts     California              1125            944
+Wicked Choccy's     California               823            689
+  Lot's O' Nuts       New York               645            544
+  Lot's O' Nuts          Texas               569            479
+Wicked Choccy's       New York               436            353
+Wicked Choccy's          Texas               388            326
+  Lot's O' Nuts   Pennsylvania               331            270
+  Lot's O' Nuts       Illinois               267            235
+  Lot's O' Nuts     Washington               269            230
+  Lot's O' Nuts           Ohio               262            218
+
+SHIPPING METHOD DISTRIBUTION
+Ship Mode
+Standard Class    6120
+Second Class      1979
+First Class       1548
+Same Day           547
+Name: count, dtype: int64
+
+Analysis complete!
+Results saved in the outputs folder.
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> pip install pandas matplotlib
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pandas in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (3.0.5)
+Requirement already satisfied: matplotlib in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (3.11.1)
+Requirement already satisfied: numpy>=2.3.3 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from pandas) (2.5.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: tzdata in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from pandas) (2026.3)
+Requirement already satisfied: contourpy>=1.0.1 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.28.2 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (4.63.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (26.3)
+Requirement already satisfied: pillow>=9 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (12.3.0)
+Requirement already satisfied: pyparsing>=3 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from matplotlib) (3.3.2)
+Requirement already satisfied: six>=1.5 in C:\Users\SIDDHANT\AppData\Roaming\Python\Python314\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
+=======================================================
+NASSAU CANDY SHIPPING ROUTE ANALYSIS
+=======================================================
+
+Dataset loaded successfully!
+Total records: 10194
+Total columns: 18
+
+DATASET SHAPE
+(10194, 18)
+
+COLUMN NAMES
+['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode', 'Customer ID', 'Country/Region', 'City', 'State/Province', 'Postal Code', 'Division', 'Region', 'Product ID', 'Product Name', 'Sales', 'Units', 'Gross Profit', 'Cost']
+
+MISSING VALUES
+Row ID            0
+Order ID          0
+Order Date        0
+Ship Date         0
+Ship Mode         0
+Customer ID       0
+Country/Region    0
+City              0
+State/Province    0
+Postal Code       0
+Division          0
+Region            0
+Product ID        0
+Product Name      0
+Sales             0
+Units             0
+Gross Profit      0
+Cost              0
+dtype: int64
+
+DATE QUALITY CHECK
+Order date range: 2024-01-02 00:00:00 to 2025-12-31 00:00:00
+Ship date range: 2026-06-30 00:00:00 to 2030-06-28 00:00:00
+
+Lead time summary (provisional)
+count    10194.000000
+mean      1320.841868
+std        262.444892
+min        904.000000
+25%       1271.000000
+50%       1274.000000
+75%       1638.000000
+max       1642.000000
+Name: Lead Time, dtype: float64
+
+FACTORY MAPPING CHECK
+Mapped records: 10194
+Unmapped records: 0
+
+RECORDS BY FACTORY
+          Factory  Product_Records  Unique_Orders  Unique_Products
+    Lot's O' Nuts             5692           4760                3
+  Wicked Choccy's             4152           3445                2
+   Secret Factory              217            213                3
+The Other Factory              100             98                2
+      Sugar Shack               33             33                5
+
+TOP 10 FACTORY-TO-STATE ROUTES
+        Factory State/Province  Product_Records  Unique_Orders
+  Lot's O' Nuts     California             1125            944
+Wicked Choccy's     California              823            689
+  Lot's O' Nuts       New York              645            544
+  Lot's O' Nuts          Texas              569            479
+Wicked Choccy's       New York              436            353
+Wicked Choccy's          Texas              388            326
+  Lot's O' Nuts   Pennsylvania              331            270
+  Lot's O' Nuts       Illinois              267            235
+  Lot's O' Nuts     Washington              269            230
+  Lot's O' Nuts           Ohio              262            218
+
+SHIPPING METHOD DISTRIBUTION
+     Ship Mode  Product_Records  Unique_Orders
+Standard Class             6120           5142
+  Second Class             1979           1653
+   First Class             1548           1312
+      Same Day              547            442
+
+=======================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+=======================================================
+
+Files saved in the outputs folder:
+- dataset_with_factory.csv
+- factory_state_routes.csv
+- factory_summary.csv
+- shipping_mode_distribution.png
+- shipping_mode_summary.csv
+- top_10_routes.png
+
+Note:
+Shipping lead times remain provisional because the 

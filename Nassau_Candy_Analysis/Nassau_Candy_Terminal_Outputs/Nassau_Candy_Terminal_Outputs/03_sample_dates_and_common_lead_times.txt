@@ -1,0 +1,27 @@
+SAMPLE DATE RECORDS
+                    Order ID Order Date  Ship Date      Ship Mode  Lead Time
+US-2021-103800-CHO-MIL-31000 2024-01-03 2026-06-30 Standard Class        909
+US-2021-112326-CHO-TRI-54000 2024-01-04 2026-07-01 Standard Class        909
+US-2021-112326-CHO-NUT-13000 2024-01-04 2026-07-01 Standard Class        909
+US-2021-112326-CHO-SCR-58000 2024-01-04 2026-07-01 Standard Class        909
+US-2021-141817-CHO-TRI-54000 2024-01-05 2026-07-05 Standard Class        912
+US-2021-167199-CHO-SCR-58000 2024-01-06 2026-07-03 Standard Class        909
+US-2021-167199-CHO-TRI-54000 2024-01-06 2026-07-03 Standard Class        909
+US-2021-106054-CHO-MIL-31000 2024-01-06 2026-06-30    First Class        906
+US-2021-167199-CHO-NUT-13000 2024-01-06 2026-07-03 Standard Class        909
+US-2021-167199-CHO-MIL-31000 2024-01-06 2026-07-03 Standard Class        909
+
+MOST COMMON LEAD TIMES
+Lead Time
+1273    1326
+1274    1035
+1639     896
+1640     657
+1275     612
+1271     610
+908      591
+909      519
+1272     456
+1637     449
+Name: count, dtype: int64
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py

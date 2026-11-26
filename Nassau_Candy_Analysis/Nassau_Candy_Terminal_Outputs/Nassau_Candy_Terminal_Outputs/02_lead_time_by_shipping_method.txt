@@ -1,0 +1,7 @@
+LEAD TIME BY SHIPPING METHOD
+                count  min  median     mean   max
+Ship Mode                                        
+First Class      1548  905  1272.0  1338.28  1638
+Same Day          547  904  1269.0  1333.44  1636
+Second Class     1979  906  1273.0  1323.85  1640
+Standard Class   6120  908  1274.0  1314.33  1642

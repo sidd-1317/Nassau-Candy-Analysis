@@ -1,0 +1,27 @@
+Dataset shape: (10194, 18)
+
+Column names:
+['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode', 'Customer ID', 'Country/Region', 'City', 'State/Province', 'Postal Code', 'Division', 'Region', 'Product ID', 'Product Name', 'Sales', 'Units', 'Gross Profit', 'Cost']
+
+Order date range:
+2024-01-02 00:00:00 to 2025-12-31 00:00:00
+
+Ship date range:
+2026-06-30 00:00:00 to 2030-06-28 00:00:00
+
+Shipping lead time summary:
+count    10194.000000
+mean      1320.841868
+std        262.444892
+min        904.000000
+25%       1271.000000
+50%       1274.000000
+75%       1638.000000
+max       1642.000000
+Name: Shipping Lead Time, dtype: float64
+
+Invalid order dates: 0
+Invalid ship dates: 0
+Negative lead times: 0
+Duplicate rows: 0
+PS C:\Users\SIDDHANT\OneDrive\Nassau_Candy_Analysis> python main.py
